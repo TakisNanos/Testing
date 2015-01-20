@@ -1,0 +1,137 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.itnery.co.uk/index.php"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "username"
+      },
+      "text": "pan.nanos@gmail.com"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "name",
+        "value": "password"
+      },
+      "text": "\\9"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "password"
+      },
+      "text": "takis123"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='login-wrap']//button[.='Sign in']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "tabbable"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "next"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "next"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "firstname"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "firstname"
+      },
+      "text": "takis"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "surname"
+      },
+      "text": "nanos"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "email"
+      },
+      "text": "pan.nanos@gmail.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "special"
+      },
+      "text": "tester"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "blackBookingSubmitButton"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "blackBookingCloseButton"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Logout"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "name",
+        "value": "username"
+      },
+      "text": "\\undefined"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
